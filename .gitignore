@@ -1,0 +1,49 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos de secretos
+.env
+.env.local
+.env.*.local
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de log
+*.log
+logs/
+
+# Archivos de respaldo
+*.bak
+*.backup
+
+# Carpeta de uploads (las imágenes subidas por usuarios no van al repo)
+static/uploads/*.jpg
+static/uploads/*.png
+static/uploads/*.jpeg
+static/uploads/*.gif
+!static/uploads/.gitkeep
